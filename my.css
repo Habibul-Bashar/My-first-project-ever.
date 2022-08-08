@@ -1,3 +1,45 @@
-h1{
-    color: aqua;
+body{
+    background-color: aliceblue;
+}
+
+.menubar{
+    background-color: rgb(227, 224, 250);
+    height: 60px;
+    width: 100%fit-content;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo img{
+    padding: 10px 0px;
+    margin-left: -20px;
+    margin-top: 10px;
+    box-shadow: 5px;
+}
+
+.unorderd{
+        list-style: none;
+        display: flex;
+        margin-right: -30px;
+}
+
+.unorderd li{
+         padding: 10px 25px;
+         height: 37px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: initial;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin-left: 5px;
+}
+
+.unorderd li a{
+    color: rgb(13, 13, 11);
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid rgb(121, 103, 103);
+    transition: all 0.3s;
 }
