@@ -58,3 +58,9 @@ body{
     font-size: 27px;
     font-size: 35px;
 }
+
+.profile-photo img{
+    margin-left: 10px;
+    height: 370px;
+    width: 370px;
+}
