@@ -16,9 +16,11 @@ body{
 
 /*This is I try to add img logo perfectly*/
 .logo img{
+    height: 110px;
+    width: 190px;
     padding: 10px 0px;
-    margin-left: -20px;
-    margin-top: 10px;
+    margin-left: -30px;
+    margin-top: 12px;
     box-shadow: 5px;
     position: relative;
 }
