@@ -1,5 +1,7 @@
 body{
-    background-color: aliceblue;
+    background-image: url('bg.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
     border: none;
     margin: none;
 }
@@ -61,8 +63,35 @@ body{
     font-size: 35px;
 }
 
+.profiling{
+    width: 100%;
+}
 .profile-photo img{
+    width:30%;
+    position: absolute;
+    border: 3px solid salmon;
+    border-radius: 301px;
     margin-left: 10px;
     height: 370px;
     width: 370px;
 }
+
+.profile-information h1{
+    width: 65%;
+    position: fixed;
+    margin-left: 420px;
+    float: right;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#starting{
+    color: darkcyan;
+}
+#name{
+    color: tomato;
+    letter-spacing: 1px;
+}
+
