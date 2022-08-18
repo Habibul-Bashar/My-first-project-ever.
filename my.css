@@ -1,3 +1,4 @@
+/*first time body styling*/
 body{
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
@@ -14,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 17%;
+    padding: 0 18.5%;
 }
 
 /*This is I try to add img logo perfectly*/
@@ -22,7 +23,7 @@ body{
     height: 110px;
     width: 190px;
     padding:2px 2px;
-    margin-left: -152px;
+    margin-left: -165px;
     margin-top: 12px;
     box-shadow: 5px;
     position: relative;
@@ -32,13 +33,14 @@ body{
         list-style: none;
         display: flex;
         margin-top: 27px;
-        margin-right: -110px;
+        margin-right: -130px;
 }
 
 .unorderd li{
         padding: 10px 25px;
         height: 37px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+        'Trebuchet MS', sans-serif;
         font-style: initial;
         font-weight: bolder;
         border-radius: 5px;
@@ -59,9 +61,19 @@ body{
     font-size: 37px;
 }
 
+.unorderd li a:active{
+    background-color: aliceblue;
+    color: rgb(1, 68, 1);
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.unorderd li a:visited{
+    color: rgb(2, 20, 14);
+}
+
 /*I am trying to add some after focus,But I can't*/
-.unorderd li:focus{
-    font-weight: bolder;
+.unorderd li a:focus{
     color: rgb(1, 68, 1);
 }
 
@@ -99,6 +111,7 @@ css and javascript.*/
 #name{
     color: tomato;
     letter-spacing: 1px;
+    text-shadow: 2px 2px rgb(140, 140, 95);
 }
 
 .my-text{
@@ -107,8 +120,7 @@ css and javascript.*/
     position: relative;
     left: 285px;
     top: -38px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
-    'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: larger;
 }
@@ -120,7 +132,7 @@ It was my first project with any css or styling*/
     position: relative;
     width: 120px;
     height: 150px;
-    left: 1083px;
+    left: 1095px;
     top: 95px;
     border: 5px solid lightblue;
     border-radius: 10px;
@@ -132,4 +144,38 @@ It was my first project with any css or styling*/
     margin: none;
     width: 120px;
     height: 120px;
+}
+
+/*footer part design*/
+.full-foot{
+    margin: 0px 20px;
+    padding: 10px;
+    width: 470px;
+    height: 190px;
+    left: 720px;
+    top: -50px;
+    background-color: rgb(1, 52, 52);
+    position: relative;
+    border-left: 6px solid  cadetblue ;
+    border-left-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 4px 4px lightcyan;
+    align-content: right;
+}
+
+.Contact{
+    color: salmon;
+    font-family: sans-serif;
+    font-size: large;
+    position: static;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    padding-top: -10px;
+}
+
+.para{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
 }
